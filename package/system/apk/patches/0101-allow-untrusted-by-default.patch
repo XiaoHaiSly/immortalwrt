@@ -1,0 +1,6 @@
+--- a/src/context.c
++++ b/src/context.c
+@@ -1,5 +1,5 @@
+-	if (ac->flags & APK_ALLOW_UNTRUSTED)
+-		ac->trust.allow_untrusted = 1;
++	ac->trust.allow_untrusted = 1;
