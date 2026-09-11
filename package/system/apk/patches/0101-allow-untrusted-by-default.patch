@@ -1,6 +1,6 @@
 --- a/src/context.c
 +++ b/src/context.c
-@@ -75,7 +75,7 @@ int apk_ctx_prepare(struct apk_ctx *ac)
+@@ -68,7 +68,7 @@ int apk_ctx_prepare(struct apk_ctx *ac)
  		ac->open_flags &= ~(APK_OPENF_CREATE | APK_OPENF_WRITE);
  		ac->open_flags |= APK_OPENF_READ;
  	}
